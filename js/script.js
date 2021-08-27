@@ -2,7 +2,7 @@ const currencyOne = document.querySelector("#currency-one .country-code");
 const inputOne = document.querySelector("#currency-one input");
 const currencyTwo = document.querySelector("#currency-two .country-code");
 const inputTwo = document.querySelector("#currency-two input");
-const rate = document.querySelector("#swap #rate");
+const rate = document.querySelector(".currency #rate");
 
 async function calculate() {
   const firstCountryCode = currencyOne.value;
