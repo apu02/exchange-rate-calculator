@@ -46,6 +46,12 @@ h1 {
 .currency {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+#rate {
+  font-size: 1.6rem;
+  color: $primary-clr;
+  word-spacing: 5px;
 }
 select,
 input {
